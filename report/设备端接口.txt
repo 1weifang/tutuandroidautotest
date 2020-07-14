@@ -1,0 +1,116 @@
+获取环境
+====================================================================
+https://env-proxy.nailtutu.com/api/envGetting?&timeStamp=20190905161420&clientVersionInfo=android_1.0.0&lang=zh
+{
+	"sn": "e4937a14f91c05a3",
+	"verifyStr": "SuBl3sIzSqCHUDltwBYRMz75aABTxPCpvvoowlKzLinCbTkhjotQLn1Yr4yxL3feSUQOtAVRA6Bt4PO+G8zXf0MtcHFEyHrw3YElxSKolG7ehMcRQGI9ozjRQdXEHi/LN5lY/16SGdbdNp4lYPsvd/93CyfIdLZ0HPgnBrfim08="
+}
+
+{
+	"stateCode": 200,
+	"stateMsg": "OK",
+	"data": {
+		"url": "{\"hostOTAApp\":\"https://mi-api.nailtutu.com/\",\"hosts\":\"https://mi-api.nailtutu.com/\",\"hostImg\":\"https://cdn.nailtutu.com/\",\"hostOTA\":\"https://mi-api.nailtutu.com/\"}",
+		"env": "prod_cn",
+		"otaSoftNumber": "R225T8E7B003F7837B77E5B49",
+		"hosts": "https://mi-api.nailtutu.com/",
+		"hostImage": "https://cdn.nailtutu.com/",
+		"hostOTA": "https://mi-api.nailtutu.com/",
+		"hostOTAApp": "https://mi-api.nailtutu.com/"
+	}
+}
+
+
+
+
+心跳接口
+============================================================
+https://env-proxy.nailtutu.com/api/heartbeat?&timeStamp=20190905161417&clientVersionInfo=android_1.0.0&lang=zh
+{"client_time":"1567671257086","sn":"e4937a14f91c05a3"}
+
+{"stateCode":200,"stateMsg":"OK","data":{"cicycle":"30000","action":"0"}}
+
+
+校准参数设置
+========================================================
+https://env-proxy.nailtutu.com/api/cms/machine/calibrationSetting?&timeStamp=20190906103623&clientVersionInfo=android_1.0.0&lang=zh
+{"calibrationRect":"{\"bottom\":340,\"left\":221,\"right\":413,\"top\":52}","cameraRotate":"0.0","cameraScale":"0.3225","lineAgnles":"{\"bottom\":129.00,\"left\":104.00,\"right\":104.00,\"top\":129.00}","miniRectWidth":"132","moreData":"","sn":"e4937a14f91c05a3","whRate":"0.8062016","xaxleStartPos":"575","yaxleStartPos":"1700"}
+
+{
+	"calibrationRect": "{\"bottom\":340,\"left\":221,\"right\":413,\"top\":52}",
+	"cameraRotate": "0.0",
+	"cameraScale": "0.3225",
+	"lineAgnles": "{\"bottom\":129.00,\"left\":104.00,\"right\":104.00,\"top\":129.00}",
+	"miniRectWidth": "132",
+	"moreData": "",
+	"sn": "e4937a14f91c05a3",
+	"whRate": "0.8062016",
+	"xaxleStartPos": "575",
+	"yaxleStartPos": "1700"
+}
+
+
+{"stateCode":200,"stateMsg":"OK"}
+
+
+
+
+校准参数获取
+===========================================================================
+https://env-proxy.nailtutu.com/api/cms/machine/calibrationGetting?&timeStamp=20190905161449&clientVersionInfo=android_1.0.0&lang=zh
+{"sn":"e4937a14f91c05a3"}
+
+{"stateCode":200,"stateMsg":"OK","data":{"currentPage":null,"pageSize":null,"sn":"e4937a14f91c05a3","whRate":"0.8015267","calibrationRect":"{\"bottom\":343,\"left\":219,\"right\":415,\"top\":49}","cameraScale":"0.3275","lineAgnles":"{\"bottom\":131.00,\"left\":105.00,\"right\":105.00,\"top\":131.00}","moreData":"","xaxleStartPos":"575","yaxleStartPos":"1700","cameraRotate":"0.0","miniRectWidth":"134"}}
+
+
+
+
+
+
+
+设备信息上传
+===========================================================
+https://env-proxy.nailtutu.com/api/platformDeviceInfo/insertOrUpdateBySN?&timeStamp=20190906135132&clientVersionInfo=android_1.0.0&lang=zh
+{"appVersion":"cn:1.0.34_df275d3,en:1.0.34_","cpu":"1.10_0.71_0.31","deviceVersion":"1.0.34_2df3b8d8f3","hardVersion":"4","ipAddr":"Server obtain","latitude":"22.604299","longitude":"114.057696","memory":"1.68吉字节","sn":"e4937a14f91c05a3","stm32Version":"47","storage":"11.57吉字节","temperature":"54240"}
+
+{"stateCode":200,"stateMsg":"OK"}
+
+
+
+
+店铺新增
+=======================================================
+https://mi-api.nailtutu.com/imi/cmsShopInfo/addCmsShopInfo?&access_token=7d129e59-d71e-4fdd-91ce-8cfbfb9d4693&timeStamp=20190906141912&clientVersionInfo=android_1.0.34&lang=zh
+{"address":"五和大道","area":"宝安区","city":"深圳市","province":"广东省","shopName":"官方版本不同","sn":"e4937a14f91c05a3","tel":"778888","x":"114.064241","y":"22.60995"}
+{"stateCode":200,"stateMsg":"OK"}
+
+
+店铺删除
+=======================================================
+https://mi-api.nailtutu.com/imi/cmsShopInfo/deleteCmsShopInfoBySN?&access_token=6883cbe9-c40a-4e4d-83e9-f737a582bce6&timeStamp=20190906141905&clientVersionInfo=android_1.0.34&lang=zh
+
+
+
+18319047020
+
+
+
+pad端生成二维码
+==================================================================
+/oauth/generate-qr-code
+
+{
+
+}
+
+{
+	"stateCode": 200,
+	"stateMsg": "OK",
+	"data": {
+		"qrCode": "5b6bac2d65a24e87885ee6ef81b6b6d1",
+		"expiresIn": 300
+	}
+}
+
+
+
